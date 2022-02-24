@@ -6,7 +6,7 @@ class rescompany(models.Model):
 	_inherit = "res.company"
 
 	pestana_notas = fields.Boolean('Pestaña notas', default=False)
-	pestana_informacion_adicional = fields.Boolean('Pestaña notas', default=False)
+	pestana_informacion_adicional = fields.Boolean('Información adicional', default=False)
 
 
 
