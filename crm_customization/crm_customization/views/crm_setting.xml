@@ -1,0 +1,39 @@
+<odoo>
+  <data>
+    <record id="inherit_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.crm</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="5"/>
+        <field name="inherit_id" ref="crm.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div/div/div[@name='generate_lead_setting_container']" position="after">  
+                <h2>Configuración vista formulario</h2>
+                <div class="row mt16 o_settings_container" name="qualification_setting_container">
+                    <div class="col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="pestana_notas"/>
+                        </div>
+                        <div class="o_setting_right_pane" id="crm_lead">
+                            <label for="pestana_notas"/>
+                            <div class="text-muted">
+                                Add a qualification step before the creation of an opportunity
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="pestana_informacion_adicional"/>
+                        </div>
+                        <div class="o_setting_right_pane" id="crm_lead2">
+                            <label for="pestana_informacion_adicional"/>
+                            <div class="text-muted">
+                                Add a qualification step before the creation of an opportunity
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>        
+        </field>
+    </record>
+  </data>
+</odoo>
