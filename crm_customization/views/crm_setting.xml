@@ -16,7 +16,7 @@
                         <div class="o_setting_right_pane" id="crm_lead">
                             <label for="pestana_notas"/>
                             <div class="text-muted">
-                                Add a qualification step before the creation of an opportunity
+                                Esta opciòn permite visualizar la pestaña notas en el formulario de oportunidades
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                         <div class="o_setting_right_pane" id="crm_lead2">
                             <label for="pestana_informacion_adicional"/>
                             <div class="text-muted">
-                                Add a qualification step before the creation of an opportunity
+                                Esta opciòn permite visualizar la pestaña de informciòn adicional en el formulario de oportunidades
                             </div>
                         </div>
                     </div>
